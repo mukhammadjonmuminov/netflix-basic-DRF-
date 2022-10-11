@@ -1,0 +1,65 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="CssUnknownProperty" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="myCustomPropertiesEnabled" value="true" />
+      <option name="myIgnoreVendorSpecificProperties" value="false" />
+      <option name="myCustomPropertiesList">
+        <value>
+          <list size="3">
+            <item index="0" class="java.lang.String" itemvalue="transform" />
+            <item index="1" class="java.lang.String" itemvalue="border-radius" />
+            <item index="2" class="java.lang.String" itemvalue="align-items" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="HtmlUnknownAttribute" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="myValues">
+        <value>
+          <list size="1">
+            <item index="0" class="java.lang.String" itemvalue="static" />
+          </list>
+        </value>
+      </option>
+      <option name="myCustomValuesEnabled" value="true" />
+    </inspection_tool>
+    <inspection_tool class="PyPep8Inspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="W29" />
+          <option value="E501" />
+          <option value="E302" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="str.create" />
+          <option value="models.actor" />
+          <option value="cv2.CAP_PROP_FPS" />
+          <option value="cv2.CAP_PROP_FRAME_COUNT" />
+          <option value="cv2.VideoCapture" />
+          <option value="home.models.movie.Movie.objects" />
+          <option value="home.models.actor.Actor.objects" />
+          <option value="TodoApp.todo.models.Todo.objects" />
+          <option value="TodoApp.todo.urls.path" />
+          <option value="myplans.todo.models.Todo.objects" />
+          <option value="myplans.todo.urls.include" />
+          <option value="TodoApi.todo.models.Todo.objects" />
+          <option value="home.views.DjangoFilterBackend" />
+          <option value="home.models.comment.Comment.objects" />
+          <option value="home.models.comment.datetime" />
+          <option value="Netflix.Netflix.home.models.actor.Actor.objects" />
+          <option value="Netflix.Netflix.home.models.movie.Movie.objects" />
+          <option value="Netflix.Netflix.home.models.comment.Comment.objects" />
+          <option value="Netflix.Netflix.home.tests.test_serializers.Actor" />
+          <option value="Netflix.Netflix.home.tests.test_serializers.models" />
+          <option value="Netflix.Netflix.home.tests.test_serializers.serializers" />
+          <option value="Netflix.Netflix.home.tests.tests_serializer.home" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
