@@ -1,19 +1,18 @@
-from .serializers import ActorSerializer, MovieSerializer, CommentSerializer
-from rest_framework.authentication import TokenAuthentication
-from django_filters.rest_framework import DjangoFilterBackend
-from rest_framework.pagination import LimitOffsetPagination
+from .models.movie import Movie
+from .models.actor import Actor
+from rest_framework import status
+from rest_framework import filters
+from .models.comment import Comment
+from rest_framework.views import APIView
+from rest_framework.response import Response
+from rest_framework.decorators import action
+from rest_framework.generics import ListAPIView
 from rest_framework.permissions import IsAuthenticated
 from rest_framework.viewsets import ReadOnlyModelViewSet
-from rest_framework.generics import ListAPIView
-from rest_framework.decorators import action
-from rest_framework.response import Response
-from rest_framework.views import APIView
-from .models.comment import Comment
-
-from rest_framework import filters
-from rest_framework import status
-from .models.actor import Actor
-from .models.movie import Movie
+from rest_framework.pagination import LimitOffsetPagination
+# from django_filters.rest_framework import DjangoFilterBackend
+from rest_framework.authentication import TokenAuthentication
+from .serializers import ActorSerializer, MovieSerializer, CommentSerializer
 
 class ActorViewSet(ReadOnlyModelViewSet):
     serializer_class = ActorSerializer
@@ -60,7 +59,9 @@ class MovieViewSet(ReadOnlyModelViewSet):
         return Response(status=status.HTTP_200_OK)
 
 class MovieActorAPIView(APIView):
-    def get(self, request, id, *args, **kwargs):
+
+    @staticmethod
+    def get(request, id, *args, **kwargs):
         movie = Movie.objects.get(id=id)
         seriarizer = ActorSerializer(movie.actor.all(), many=True)
         return Response(seriarizer.data)
@@ -69,8 +70,8 @@ class CommentAdd(APIView):
     permission_classes = (IsAuthenticated,)
     authentication_classes = (TokenAuthentication,)
 
-
-    def post(self, request):
+    @staticmethod
+    def post(request):
         serializer = CommentSerializer(data=request.data)
         if serializer.is_valid():
             serializer.save(user=request.user)
@@ -89,7 +90,8 @@ class CommentDeleteAPIView(APIView):
     permission_classes = [IsAuthenticated, ]
     authentication_classes = [TokenAuthentication, ]
 
-    def delete(self, request, pk):
+    @staticmethod
+    def delete(request, pk):
         comment = Comment.objects.get(pk=pk)
         comment.delete()
         return Response(status=status.HTTP_204_NO_CONTENT)

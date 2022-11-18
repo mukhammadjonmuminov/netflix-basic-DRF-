@@ -1,9 +1,9 @@
+import datetime
+from .models.movie import Movie
+from .models.actor import Actor
+from .models.comment import Comment
 from rest_framework import serializers
 from rest_framework.exceptions import ValidationError
-from .models.actor import Actor
-from .models.movie import Movie
-from .models.comment import Comment
-import datetime
 
 class ActorSerializer(serializers.ModelSerializer):
     class Meta:
@@ -14,7 +14,6 @@ class ActorSerializer(serializers.ModelSerializer):
     #     date = datetime.datetime(1950, 1, 1)
     #     if not value.year < date.year:
     #         return ValidationError(detail="Hey birthdate > 01.01.1950")
-
 
 class MovieSerializer(serializers.ModelSerializer):
     # actor = ActorSerializer()

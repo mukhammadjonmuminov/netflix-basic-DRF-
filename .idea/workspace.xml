@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="454103d8-0923-4201-9926-130e7e393a51" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/Netflix/Netflix/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Netflix/Netflix/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Netflix/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/Netflix/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Netflix/home/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/Netflix/home/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Netflix/home/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Netflix/home/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Netflix/home/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Netflix/home/views.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Jupyter Notebook" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2H4YmES9xht0nr2vyFmjUlrHbdn" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "full.screen.before.presentation.mode": "false",
+    "last_opened_file_path": "/home/mustafo/Projects/Portfolioga/Clone/netflix-basic-DRF",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="454103d8-0923-4201-9926-130e7e393a51" name="Changes" comment="" />
+      <created>1667545980457</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1667545980457</updated>
+      <workItem from="1667545981666" duration="1893000" />
+      <workItem from="1667564558377" duration="3014000" />
+      <workItem from="1667600433163" duration="7276000" />
+      <workItem from="1667712198408" duration="8048000" />
+      <workItem from="1667814020382" duration="12000" />
+      <workItem from="1667817017173" duration="17000" />
+      <workItem from="1667935575494" duration="8853000" />
+      <workItem from="1668541193152" duration="1790000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
